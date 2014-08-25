@@ -1,0 +1,718 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E2F9DB919AA73FA002F1064 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9DB819AA73FA002F1064 /* Person.m */; };
+		6E2F9DBE19AA7453002F1064 /* Person+CRUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9DBD19AA7453002F1064 /* Person+CRUD.m */; };
+		6E2F9DC219AA9452002F1064 /* mainPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DC019AA9452002F1064 /* mainPage.png */; };
+		6E2F9DC319AA9452002F1064 /* topBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DC119AA9452002F1064 /* topBar.png */; };
+		6E2F9DC819AA9461002F1064 /* AccessAccountButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DC419AA9461002F1064 /* AccessAccountButton.png */; };
+		6E2F9DCB19AA9461002F1064 /* createAccountButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DC719AA9461002F1064 /* createAccountButton.png */; };
+		6E2F9DCD19AA986A002F1064 /* topBar-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DCC19AA986A002F1064 /* topBar-2.png */; };
+		6E2F9DCF19AACE58002F1064 /* createAccountBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DCE19AACE58002F1064 /* createAccountBar.png */; };
+		6E2F9DD319AAD223002F1064 /* arrowDown.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DD019AAD223002F1064 /* arrowDown.png */; };
+		6E2F9DD419AAD223002F1064 /* arrowUp.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DD119AAD223002F1064 /* arrowUp.png */; };
+		6E2F9DD519AAD223002F1064 /* CloseButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DD219AAD223002F1064 /* CloseButton.png */; };
+		6E2F9DDA19AAD239002F1064 /* SubmitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DD819AAD239002F1064 /* SubmitButton.png */; };
+		6E2F9DDB19AAD239002F1064 /* TextfieldBackgroud.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DD919AAD239002F1064 /* TextfieldBackgroud.png */; };
+		6E2F9DDD19AAD2BE002F1064 /* DropDownListButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DDC19AAD2BE002F1064 /* DropDownListButton.png */; };
+		6E2F9DE019AAD805002F1064 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9DDF19AAD805002F1064 /* CustomTextField.m */; };
+		6E2F9DE419AADBF2002F1064 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9DE319AADBF2002F1064 /* CreateAccountViewController.m */; };
+		6E2F9DF319AAF221002F1064 /* backgroundBottomBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DE619AAF221002F1064 /* backgroundBottomBar.png */; };
+		6E2F9DF819AAF222002F1064 /* Logincopy.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DEB19AAF221002F1064 /* Logincopy.png */; };
+		6E2F9DF919AAF222002F1064 /* ReportCETab.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9DEC19AAF221002F1064 /* ReportCETab.png */; };
+		6E2F9E0219AAF2D0002F1064 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9E0119AAF2D0002F1064 /* AccountViewController.m */; };
+		6E2F9E0719AAF7C8002F1064 /* selected-highlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E0619AAF7C7002F1064 /* selected-highlight.png */; };
+		6E2F9E3619AB0060002F1064 /* History.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E2C19AB0060002F1064 /* History.png */; };
+		6E2F9E3719AB0060002F1064 /* History-(active).png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E2D19AB0060002F1064 /* History-(active).png */; };
+		6E2F9E3819AB0060002F1064 /* License.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E2E19AB0060002F1064 /* License.png */; };
+		6E2F9E3919AB0060002F1064 /* License-(active).png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E2F19AB0060002F1064 /* License-(active).png */; };
+		6E2F9E3A19AB0060002F1064 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E3019AB0060002F1064 /* Search.png */; };
+		6E2F9E3B19AB0060002F1064 /* Search-(active).png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E3119AB0060002F1064 /* Search-(active).png */; };
+		6E2F9E3C19AB0060002F1064 /* Settings.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E3219AB0060002F1064 /* Settings.png */; };
+		6E2F9E3D19AB0060002F1064 /* Settings-(active).png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E3319AB0060002F1064 /* Settings-(active).png */; };
+		6E2F9E4219AB00D0002F1064 /* Transcript.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4019AB00D0002F1064 /* Transcript.png */; };
+		6E2F9E4319AB00D0002F1064 /* Transcript-(active).png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4119AB00D0002F1064 /* Transcript-(active).png */; };
+		6E2F9E4619AB0426002F1064 /* AccountPage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4519AB0426002F1064 /* AccountPage.png */; };
+		6E2F9E4919AB0A4F002F1064 /* upgradeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4719AB0A4F002F1064 /* upgradeButton.png */; };
+		6E2F9E4A19AB0A4F002F1064 /* upgradePage.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4819AB0A4F002F1064 /* upgradePage.png */; };
+		6E2F9E4F19AB2036002F1064 /* CoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9E4E19AB2036002F1064 /* CoreDataController.m */; };
+		6E2F9E5119AB2127002F1064 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2F9E5019AB2127002F1064 /* CoreData.framework */; };
+		6E2F9E5419AB326D002F1064 /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E2F9E5319AB326D002F1064 /* LoginService.m */; };
+		6EE6730A19A6DF7700BD24FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6730919A6DF7700BD24FA /* Foundation.framework */; };
+		6EE6730C19A6DF7700BD24FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6730B19A6DF7700BD24FA /* CoreGraphics.framework */; };
+		6EE6730E19A6DF7700BD24FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6730D19A6DF7700BD24FA /* UIKit.framework */; };
+		6EE6731419A6DF7700BD24FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6731219A6DF7700BD24FA /* InfoPlist.strings */; };
+		6EE6731619A6DF7700BD24FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6731519A6DF7700BD24FA /* main.m */; };
+		6EE6731A19A6DF7700BD24FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6731919A6DF7700BD24FA /* AppDelegate.m */; };
+		6EE6731D19A6DF7700BD24FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6731B19A6DF7700BD24FA /* Main.storyboard */; };
+		6EE6732019A6DF7700BD24FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6731F19A6DF7700BD24FA /* ViewController.m */; };
+		6EE6732219A6DF7700BD24FA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6732119A6DF7700BD24FA /* Images.xcassets */; };
+		6EE6732919A6DF7700BD24FA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6732819A6DF7700BD24FA /* XCTest.framework */; };
+		6EE6732A19A6DF7700BD24FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6730919A6DF7700BD24FA /* Foundation.framework */; };
+		6EE6732B19A6DF7700BD24FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE6730D19A6DF7700BD24FA /* UIKit.framework */; };
+		6EE6733319A6DF7700BD24FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EE6733119A6DF7700BD24FA /* InfoPlist.strings */; };
+		6EE6733519A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6733419A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.m */; };
+		6EE6734D19A6F7A600BD24FA /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6EE6734B19A6F7A600BD24FA /* Model.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6EE6732C19A6DF7700BD24FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6EE672FE19A6DF7700BD24FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6EE6730519A6DF7700BD24FA;
+			remoteInfo = IPhoneTest_CEBroker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E2F9DB719AA73FA002F1064 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Person.h; path = Model/Person.h; sourceTree = "<group>"; };
+		6E2F9DB819AA73FA002F1064 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Person.m; path = Model/Person.m; sourceTree = "<group>"; };
+		6E2F9DBC19AA7453002F1064 /* Person+CRUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "Person+CRUD.h"; path = "Model/CRUD/Person+CRUD.h"; sourceTree = "<group>"; };
+		6E2F9DBD19AA7453002F1064 /* Person+CRUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "Person+CRUD.m"; path = "Model/CRUD/Person+CRUD.m"; sourceTree = "<group>"; };
+		6E2F9DC019AA9452002F1064 /* mainPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mainPage.png; sourceTree = "<group>"; };
+		6E2F9DC119AA9452002F1064 /* topBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = topBar.png; sourceTree = "<group>"; };
+		6E2F9DC419AA9461002F1064 /* AccessAccountButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccessAccountButton.png; sourceTree = "<group>"; };
+		6E2F9DC719AA9461002F1064 /* createAccountButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createAccountButton.png; sourceTree = "<group>"; };
+		6E2F9DCC19AA986A002F1064 /* topBar-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "topBar-2.png"; sourceTree = "<group>"; };
+		6E2F9DCE19AACE58002F1064 /* createAccountBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = createAccountBar.png; sourceTree = "<group>"; };
+		6E2F9DD019AAD223002F1064 /* arrowDown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowDown.png; sourceTree = "<group>"; };
+		6E2F9DD119AAD223002F1064 /* arrowUp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrowUp.png; sourceTree = "<group>"; };
+		6E2F9DD219AAD223002F1064 /* CloseButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CloseButton.png; sourceTree = "<group>"; };
+		6E2F9DD819AAD239002F1064 /* SubmitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SubmitButton.png; sourceTree = "<group>"; };
+		6E2F9DD919AAD239002F1064 /* TextfieldBackgroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TextfieldBackgroud.png; sourceTree = "<group>"; };
+		6E2F9DDC19AAD2BE002F1064 /* DropDownListButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DropDownListButton.png; sourceTree = "<group>"; };
+		6E2F9DDE19AAD805002F1064 /* CustomTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomTextField.h; path = Libraries/CustomTextField.h; sourceTree = "<group>"; };
+		6E2F9DDF19AAD805002F1064 /* CustomTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomTextField.m; path = Libraries/CustomTextField.m; sourceTree = "<group>"; };
+		6E2F9DE219AADBF2002F1064 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CreateAccountViewController.h; path = CreateAccount/CreateAccountViewController.h; sourceTree = "<group>"; };
+		6E2F9DE319AADBF2002F1064 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CreateAccountViewController.m; path = CreateAccount/CreateAccountViewController.m; sourceTree = "<group>"; };
+		6E2F9DE619AAF221002F1064 /* backgroundBottomBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroundBottomBar.png; sourceTree = "<group>"; };
+		6E2F9DEB19AAF221002F1064 /* Logincopy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logincopy.png; sourceTree = "<group>"; };
+		6E2F9DEC19AAF221002F1064 /* ReportCETab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ReportCETab.png; sourceTree = "<group>"; };
+		6E2F9E0019AAF2D0002F1064 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AccountViewController.h; path = Account/AccountViewController.h; sourceTree = "<group>"; };
+		6E2F9E0119AAF2D0002F1064 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AccountViewController.m; path = Account/AccountViewController.m; sourceTree = "<group>"; };
+		6E2F9E0619AAF7C7002F1064 /* selected-highlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "selected-highlight.png"; sourceTree = "<group>"; };
+		6E2F9E2C19AB0060002F1064 /* History.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = History.png; sourceTree = "<group>"; };
+		6E2F9E2D19AB0060002F1064 /* History-(active).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "History-(active).png"; sourceTree = "<group>"; };
+		6E2F9E2E19AB0060002F1064 /* License.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = License.png; sourceTree = "<group>"; };
+		6E2F9E2F19AB0060002F1064 /* License-(active).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "License-(active).png"; sourceTree = "<group>"; };
+		6E2F9E3019AB0060002F1064 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		6E2F9E3119AB0060002F1064 /* Search-(active).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Search-(active).png"; sourceTree = "<group>"; };
+		6E2F9E3219AB0060002F1064 /* Settings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Settings.png; sourceTree = "<group>"; };
+		6E2F9E3319AB0060002F1064 /* Settings-(active).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-(active).png"; sourceTree = "<group>"; };
+		6E2F9E4019AB00D0002F1064 /* Transcript.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Transcript.png; sourceTree = "<group>"; };
+		6E2F9E4119AB00D0002F1064 /* Transcript-(active).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Transcript-(active).png"; sourceTree = "<group>"; };
+		6E2F9E4519AB0426002F1064 /* AccountPage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AccountPage.png; sourceTree = "<group>"; };
+		6E2F9E4719AB0A4F002F1064 /* upgradeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upgradeButton.png; sourceTree = "<group>"; };
+		6E2F9E4819AB0A4F002F1064 /* upgradePage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upgradePage.png; sourceTree = "<group>"; };
+		6E2F9E4B19AB103C002F1064 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Constants.h; path = Libraries/Constants.h; sourceTree = "<group>"; };
+		6E2F9E4D19AB2036002F1064 /* CoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataController.h; sourceTree = "<group>"; };
+		6E2F9E4E19AB2036002F1064 /* CoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataController.m; sourceTree = "<group>"; };
+		6E2F9E5019AB2127002F1064 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6E2F9E5219AB326D002F1064 /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginService.h; path = Libraries/LoginService.h; sourceTree = "<group>"; };
+		6E2F9E5319AB326D002F1064 /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginService.m; path = Libraries/LoginService.m; sourceTree = "<group>"; };
+		6EE6730619A6DF7700BD24FA /* IPhoneTest_CEBroker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IPhoneTest_CEBroker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE6730919A6DF7700BD24FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6EE6730B19A6DF7700BD24FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6EE6730D19A6DF7700BD24FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6EE6731119A6DF7700BD24FA /* IPhoneTest_CEBroker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPhoneTest_CEBroker-Info.plist"; sourceTree = "<group>"; };
+		6EE6731319A6DF7700BD24FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE6731519A6DF7700BD24FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6EE6731719A6DF7700BD24FA /* IPhoneTest_CEBroker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IPhoneTest_CEBroker-Prefix.pch"; sourceTree = "<group>"; };
+		6EE6731819A6DF7700BD24FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6EE6731919A6DF7700BD24FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6EE6731C19A6DF7700BD24FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6EE6731E19A6DF7700BD24FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6EE6731F19A6DF7700BD24FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6EE6732119A6DF7700BD24FA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6EE6732719A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IPhoneTest_CEBrokerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EE6732819A6DF7700BD24FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6EE6733019A6DF7700BD24FA /* IPhoneTest_CEBrokerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "IPhoneTest_CEBrokerTests-Info.plist"; sourceTree = "<group>"; };
+		6EE6733219A6DF7700BD24FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6EE6733419A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IPhoneTest_CEBrokerTests.m; sourceTree = "<group>"; };
+		6EE6734C19A6F7A600BD24FA /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EE6730319A6DF7700BD24FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2F9E5119AB2127002F1064 /* CoreData.framework in Frameworks */,
+				6EE6730C19A6DF7700BD24FA /* CoreGraphics.framework in Frameworks */,
+				6EE6730E19A6DF7700BD24FA /* UIKit.framework in Frameworks */,
+				6EE6730A19A6DF7700BD24FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE6732419A6DF7700BD24FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE6732919A6DF7700BD24FA /* XCTest.framework in Frameworks */,
+				6EE6732B19A6DF7700BD24FA /* UIKit.framework in Frameworks */,
+				6EE6732A19A6DF7700BD24FA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E2F9DBB19AA7416002F1064 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9DB719AA73FA002F1064 /* Person.h */,
+				6E2F9DB819AA73FA002F1064 /* Person.m */,
+				6E2F9DBF19AA745A002F1064 /* CRUD */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		6E2F9DBF19AA745A002F1064 /* CRUD */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9DBC19AA7453002F1064 /* Person+CRUD.h */,
+				6E2F9DBD19AA7453002F1064 /* Person+CRUD.m */,
+			);
+			name = CRUD;
+			sourceTree = "<group>";
+		};
+		6E2F9DE119AAD80D002F1064 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E4C19AB2036002F1064 /* CoreDataController */,
+				6E2F9E4B19AB103C002F1064 /* Constants.h */,
+				6E2F9DDE19AAD805002F1064 /* CustomTextField.h */,
+				6E2F9DDF19AAD805002F1064 /* CustomTextField.m */,
+				6E2F9E5219AB326D002F1064 /* LoginService.h */,
+				6E2F9E5319AB326D002F1064 /* LoginService.m */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		6E2F9DE519AADBF8002F1064 /* CreateAccount */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9DE219AADBF2002F1064 /* CreateAccountViewController.h */,
+				6E2F9DE319AADBF2002F1064 /* CreateAccountViewController.m */,
+			);
+			name = CreateAccount;
+			sourceTree = "<group>";
+		};
+		6E2F9E0319AAF2D4002F1064 /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E0019AAF2D0002F1064 /* AccountViewController.h */,
+				6E2F9E0119AAF2D0002F1064 /* AccountViewController.m */,
+			);
+			name = Account;
+			sourceTree = "<group>";
+		};
+		6E2F9E4419AB0410002F1064 /* ButtonBar */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E2C19AB0060002F1064 /* History.png */,
+				6E2F9E2D19AB0060002F1064 /* History-(active).png */,
+				6E2F9E2E19AB0060002F1064 /* License.png */,
+				6E2F9E2F19AB0060002F1064 /* License-(active).png */,
+				6E2F9E3019AB0060002F1064 /* Search.png */,
+				6E2F9E3119AB0060002F1064 /* Search-(active).png */,
+				6E2F9E3219AB0060002F1064 /* Settings.png */,
+				6E2F9E3319AB0060002F1064 /* Settings-(active).png */,
+				6E2F9E0619AAF7C7002F1064 /* selected-highlight.png */,
+				6E2F9E4019AB00D0002F1064 /* Transcript.png */,
+				6E2F9E4119AB00D0002F1064 /* Transcript-(active).png */,
+			);
+			name = ButtonBar;
+			sourceTree = "<group>";
+		};
+		6E2F9E4C19AB2036002F1064 /* CoreDataController */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E4D19AB2036002F1064 /* CoreDataController.h */,
+				6E2F9E4E19AB2036002F1064 /* CoreDataController.m */,
+			);
+			path = CoreDataController;
+			sourceTree = "<group>";
+		};
+		6EE672FD19A6DF7700BD24FA = {
+			isa = PBXGroup;
+			children = (
+				6EE6730F19A6DF7700BD24FA /* IPhoneTest_CEBroker */,
+				6EE6732E19A6DF7700BD24FA /* IPhoneTest_CEBrokerTests */,
+				6EE6730819A6DF7700BD24FA /* Frameworks */,
+				6EE6730719A6DF7700BD24FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EE6730719A6DF7700BD24FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6730619A6DF7700BD24FA /* IPhoneTest_CEBroker.app */,
+				6EE6732719A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EE6730819A6DF7700BD24FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E5019AB2127002F1064 /* CoreData.framework */,
+				6EE6730919A6DF7700BD24FA /* Foundation.framework */,
+				6EE6730B19A6DF7700BD24FA /* CoreGraphics.framework */,
+				6EE6730D19A6DF7700BD24FA /* UIKit.framework */,
+				6EE6732819A6DF7700BD24FA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6EE6730F19A6DF7700BD24FA /* IPhoneTest_CEBroker */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6734B19A6F7A600BD24FA /* Model.xcdatamodeld */,
+				6EE6731B19A6DF7700BD24FA /* Main.storyboard */,
+				6EE6731819A6DF7700BD24FA /* AppDelegate.h */,
+				6EE6731919A6DF7700BD24FA /* AppDelegate.m */,
+				6EE6731E19A6DF7700BD24FA /* ViewController.h */,
+				6EE6731F19A6DF7700BD24FA /* ViewController.m */,
+				6E2F9E0319AAF2D4002F1064 /* Account */,
+				6E2F9DE519AADBF8002F1064 /* CreateAccount */,
+				6E2F9DE119AAD80D002F1064 /* Libraries */,
+				6E2F9DBB19AA7416002F1064 /* Model */,
+				6EE6732119A6DF7700BD24FA /* Images.xcassets */,
+				6EE6731019A6DF7700BD24FA /* Supporting Files */,
+			);
+			path = IPhoneTest_CEBroker;
+			sourceTree = "<group>";
+		};
+		6EE6731019A6DF7700BD24FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6734619A6EED300BD24FA /* Images */,
+				6EE6731119A6DF7700BD24FA /* IPhoneTest_CEBroker-Info.plist */,
+				6EE6731219A6DF7700BD24FA /* InfoPlist.strings */,
+				6EE6731519A6DF7700BD24FA /* main.m */,
+				6EE6731719A6DF7700BD24FA /* IPhoneTest_CEBroker-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EE6732E19A6DF7700BD24FA /* IPhoneTest_CEBrokerTests */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6733419A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.m */,
+				6EE6732F19A6DF7700BD24FA /* Supporting Files */,
+			);
+			path = IPhoneTest_CEBrokerTests;
+			sourceTree = "<group>";
+		};
+		6EE6732F19A6DF7700BD24FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EE6733019A6DF7700BD24FA /* IPhoneTest_CEBrokerTests-Info.plist */,
+				6EE6733119A6DF7700BD24FA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6EE6734619A6EED300BD24FA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6E2F9E4519AB0426002F1064 /* AccountPage.png */,
+				6E2F9E4719AB0A4F002F1064 /* upgradeButton.png */,
+				6E2F9E4819AB0A4F002F1064 /* upgradePage.png */,
+				6E2F9E4419AB0410002F1064 /* ButtonBar */,
+				6E2F9DE619AAF221002F1064 /* backgroundBottomBar.png */,
+				6E2F9DEB19AAF221002F1064 /* Logincopy.png */,
+				6E2F9DEC19AAF221002F1064 /* ReportCETab.png */,
+				6E2F9DD019AAD223002F1064 /* arrowDown.png */,
+				6E2F9DD119AAD223002F1064 /* arrowUp.png */,
+				6E2F9DD219AAD223002F1064 /* CloseButton.png */,
+				6E2F9DD819AAD239002F1064 /* SubmitButton.png */,
+				6E2F9DDC19AAD2BE002F1064 /* DropDownListButton.png */,
+				6E2F9DD919AAD239002F1064 /* TextfieldBackgroud.png */,
+				6E2F9DCC19AA986A002F1064 /* topBar-2.png */,
+				6E2F9DC419AA9461002F1064 /* AccessAccountButton.png */,
+				6E2F9DCE19AACE58002F1064 /* createAccountBar.png */,
+				6E2F9DC719AA9461002F1064 /* createAccountButton.png */,
+				6E2F9DC019AA9452002F1064 /* mainPage.png */,
+				6E2F9DC119AA9452002F1064 /* topBar.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6EE6730519A6DF7700BD24FA /* IPhoneTest_CEBroker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE6733819A6DF7700BD24FA /* Build configuration list for PBXNativeTarget "IPhoneTest_CEBroker" */;
+			buildPhases = (
+				6EE6730219A6DF7700BD24FA /* Sources */,
+				6EE6730319A6DF7700BD24FA /* Frameworks */,
+				6EE6730419A6DF7700BD24FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IPhoneTest_CEBroker;
+			productName = IPhoneTest_CEBroker;
+			productReference = 6EE6730619A6DF7700BD24FA /* IPhoneTest_CEBroker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6EE6732619A6DF7700BD24FA /* IPhoneTest_CEBrokerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EE6733B19A6DF7700BD24FA /* Build configuration list for PBXNativeTarget "IPhoneTest_CEBrokerTests" */;
+			buildPhases = (
+				6EE6732319A6DF7700BD24FA /* Sources */,
+				6EE6732419A6DF7700BD24FA /* Frameworks */,
+				6EE6732519A6DF7700BD24FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EE6732D19A6DF7700BD24FA /* PBXTargetDependency */,
+			);
+			name = IPhoneTest_CEBrokerTests;
+			productName = IPhoneTest_CEBrokerTests;
+			productReference = 6EE6732719A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EE672FE19A6DF7700BD24FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Arturo Murillo";
+				TargetAttributes = {
+					6EE6732619A6DF7700BD24FA = {
+						TestTargetID = 6EE6730519A6DF7700BD24FA;
+					};
+				};
+			};
+			buildConfigurationList = 6EE6730119A6DF7700BD24FA /* Build configuration list for PBXProject "IPhoneTest_CEBroker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6EE672FD19A6DF7700BD24FA;
+			productRefGroup = 6EE6730719A6DF7700BD24FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EE6730519A6DF7700BD24FA /* IPhoneTest_CEBroker */,
+				6EE6732619A6DF7700BD24FA /* IPhoneTest_CEBrokerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EE6730419A6DF7700BD24FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2F9E0719AAF7C8002F1064 /* selected-highlight.png in Resources */,
+				6E2F9E3D19AB0060002F1064 /* Settings-(active).png in Resources */,
+				6E2F9E3919AB0060002F1064 /* License-(active).png in Resources */,
+				6E2F9DD519AAD223002F1064 /* CloseButton.png in Resources */,
+				6E2F9DC319AA9452002F1064 /* topBar.png in Resources */,
+				6E2F9E3B19AB0060002F1064 /* Search-(active).png in Resources */,
+				6E2F9DC819AA9461002F1064 /* AccessAccountButton.png in Resources */,
+				6E2F9E4A19AB0A4F002F1064 /* upgradePage.png in Resources */,
+				6EE6732219A6DF7700BD24FA /* Images.xcassets in Resources */,
+				6E2F9DF319AAF221002F1064 /* backgroundBottomBar.png in Resources */,
+				6E2F9DDB19AAD239002F1064 /* TextfieldBackgroud.png in Resources */,
+				6E2F9DDD19AAD2BE002F1064 /* DropDownListButton.png in Resources */,
+				6E2F9E4219AB00D0002F1064 /* Transcript.png in Resources */,
+				6E2F9E3C19AB0060002F1064 /* Settings.png in Resources */,
+				6E2F9E3619AB0060002F1064 /* History.png in Resources */,
+				6E2F9E3819AB0060002F1064 /* License.png in Resources */,
+				6E2F9DD419AAD223002F1064 /* arrowUp.png in Resources */,
+				6E2F9DCB19AA9461002F1064 /* createAccountButton.png in Resources */,
+				6E2F9DC219AA9452002F1064 /* mainPage.png in Resources */,
+				6E2F9DDA19AAD239002F1064 /* SubmitButton.png in Resources */,
+				6E2F9DCD19AA986A002F1064 /* topBar-2.png in Resources */,
+				6E2F9E4319AB00D0002F1064 /* Transcript-(active).png in Resources */,
+				6E2F9DF919AAF222002F1064 /* ReportCETab.png in Resources */,
+				6E2F9DCF19AACE58002F1064 /* createAccountBar.png in Resources */,
+				6E2F9DD319AAD223002F1064 /* arrowDown.png in Resources */,
+				6E2F9E3A19AB0060002F1064 /* Search.png in Resources */,
+				6EE6731419A6DF7700BD24FA /* InfoPlist.strings in Resources */,
+				6E2F9E4919AB0A4F002F1064 /* upgradeButton.png in Resources */,
+				6E2F9E4619AB0426002F1064 /* AccountPage.png in Resources */,
+				6E2F9E3719AB0060002F1064 /* History-(active).png in Resources */,
+				6E2F9DF819AAF222002F1064 /* Logincopy.png in Resources */,
+				6EE6731D19A6DF7700BD24FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE6732519A6DF7700BD24FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE6733319A6DF7700BD24FA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EE6730219A6DF7700BD24FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E2F9DE419AADBF2002F1064 /* CreateAccountViewController.m in Sources */,
+				6E2F9DBE19AA7453002F1064 /* Person+CRUD.m in Sources */,
+				6EE6732019A6DF7700BD24FA /* ViewController.m in Sources */,
+				6EE6731A19A6DF7700BD24FA /* AppDelegate.m in Sources */,
+				6E2F9E0219AAF2D0002F1064 /* AccountViewController.m in Sources */,
+				6E2F9DB919AA73FA002F1064 /* Person.m in Sources */,
+				6E2F9E5419AB326D002F1064 /* LoginService.m in Sources */,
+				6E2F9E4F19AB2036002F1064 /* CoreDataController.m in Sources */,
+				6E2F9DE019AAD805002F1064 /* CustomTextField.m in Sources */,
+				6EE6731619A6DF7700BD24FA /* main.m in Sources */,
+				6EE6734D19A6F7A600BD24FA /* Model.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EE6732319A6DF7700BD24FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE6733519A6DF7700BD24FA /* IPhoneTest_CEBrokerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6EE6732D19A6DF7700BD24FA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6EE6730519A6DF7700BD24FA /* IPhoneTest_CEBroker */;
+			targetProxy = 6EE6732C19A6DF7700BD24FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6EE6731219A6DF7700BD24FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE6731319A6DF7700BD24FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6EE6731B19A6DF7700BD24FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE6731C19A6DF7700BD24FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6EE6733119A6DF7700BD24FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6EE6733219A6DF7700BD24FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6EE6733619A6DF7700BD24FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6EE6733719A6DF7700BD24FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6EE6733919A6DF7700BD24FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Prefix.pch";
+				INFOPLIST_FILE = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6EE6733A19A6DF7700BD24FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Prefix.pch";
+				INFOPLIST_FILE = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6EE6733C19A6DF7700BD24FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IPhoneTest_CEBroker.app/IPhoneTest_CEBroker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "IPhoneTest_CEBrokerTests/IPhoneTest_CEBrokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6EE6733D19A6DF7700BD24FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/IPhoneTest_CEBroker.app/IPhoneTest_CEBroker";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "IPhoneTest_CEBroker/IPhoneTest_CEBroker-Prefix.pch";
+				INFOPLIST_FILE = "IPhoneTest_CEBrokerTests/IPhoneTest_CEBrokerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EE6730119A6DF7700BD24FA /* Build configuration list for PBXProject "IPhoneTest_CEBroker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE6733619A6DF7700BD24FA /* Debug */,
+				6EE6733719A6DF7700BD24FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE6733819A6DF7700BD24FA /* Build configuration list for PBXNativeTarget "IPhoneTest_CEBroker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE6733919A6DF7700BD24FA /* Debug */,
+				6EE6733A19A6DF7700BD24FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EE6733B19A6DF7700BD24FA /* Build configuration list for PBXNativeTarget "IPhoneTest_CEBrokerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EE6733C19A6DF7700BD24FA /* Debug */,
+				6EE6733D19A6DF7700BD24FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6EE6734B19A6F7A600BD24FA /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6EE6734C19A6F7A600BD24FA /* Model.xcdatamodel */,
+			);
+			currentVersion = 6EE6734C19A6F7A600BD24FA /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6EE672FE19A6DF7700BD24FA /* Project object */;
+}
